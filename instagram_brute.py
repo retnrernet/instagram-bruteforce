@@ -43,7 +43,7 @@ def is_logged_in(driver,username,password):
 #end log in check function
 
 #set the webdriver to chrome because why not
-driver = webdriver.Chrome('chromedriver.exe')
+driver = webdriver.Chrome('/content/instagram-bruteforce/chromedriver.exe')
 #get the instagram page
 driver.get('https://www.instagram.com/accounts/login/')
 #get the desired username
